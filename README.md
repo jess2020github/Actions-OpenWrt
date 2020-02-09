@@ -27,6 +27,11 @@ Build OpenWrt using GitHub Actions
 - [Cisco](https://www.cisco.com/)
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
+## 第一次使用
+  - 将编译好的.config文件上传，由于windows系统原因，不能直接上传.config文件，上传文件为2020.1.2newifi3.config
+    上传到github后，在修改文件名称为.config
+    启动ACTIONS，等待几个小时后，生成firmware，如果配置文件出错，会在ACTIONS中显示故障大致位置，并有编译过程，可供查看
+    编译完成后，及时将脚本中加入#，停止脚本触发
 
 ## License
 
